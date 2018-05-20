@@ -15,7 +15,13 @@ def assign_rooms(array)
   room_number = 1
   until room_number = 7
    array.each do |name|
-     "Hello name! You will b"
+     room_assignments.push("Hello, \_\_\_\_\_! You'll be assigned to room \_\_\_\_\_!")
+     room_number ++
+   end
+   room_assignments
+ end
+ 
+     
     
     
 

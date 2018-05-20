@@ -26,10 +26,12 @@ def assign_rooms(array)
 end
     
 def printer(array)
-  badge_messages.each do |message|
-    puts message
-  room_assignments.each do |assignment|
+  batch_badge_creator(array).each do |assignment|
     puts assignment
+  end
+  assign_rooms(array).each do |message|
+    puts message
+end
 end
     
 
